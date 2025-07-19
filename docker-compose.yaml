@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - /home/next_app/node_modules
+    environment:
+      - NODE_ENV=production
+    restart: always
+    networks:
+      severus-network:
+
+networks:
+  severus-network:

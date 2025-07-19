@@ -1,0 +1,14 @@
+# Add files here to ignore them from prettier formatting
+/dist
+/coverage
+/.nx/cache
+/.nx/workspace-data
+
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/ios
+**/abdroid
+**/.next
+
