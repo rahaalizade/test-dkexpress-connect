@@ -7,6 +7,7 @@ import { useTitlePage } from '@/lib/hooks/title-page'
 import { get_section_data } from '@/lib/utils/get-section-data/get-section-data'
 import { GetServerSideProps } from 'next'
 
+
 interface PageProperties {
   teamsList: any[]
   generalInfo: any
